@@ -22,7 +22,7 @@
 本项目包含两种部署方式的源代码：
 
 1.  **`_worker.js`**：用于部署在 **Cloudflare Workers**（包含服务端逻辑和内嵌 HTML）。
-2.  **`index.html`**：用于部署在 **Cloudflare Pages**、GitHub Pages 或任何静态服务器。
+2.  **`ip-replacement.html`**：用于部署在 **Cloudflare Pages**、GitHub Pages 或任何静态服务器。
 
 ---
 
@@ -48,23 +48,15 @@
 
 如果你有自己的域名或者喜欢静态托管方式。
 
-1.  将本项目中的 `index.html` 文件下载到本地电脑。
+1.  将本项目中的 `ip-replacement.html` 文件下载到本地电脑。
 2.  登录 [Cloudflare Dashboard](https://dash.cloudflare.com/)。
-3.  进入 **Workers & Pages** -> **Overview**。
-4.  点击 **Create Application** -> **Pages** 标签页 -> **Upload assets**。
+3.  进入 **Workers & Pages** -> **Overview**。  
+4.  点击 **Create Application** -> **Pages** 标签页 -> **Upload assets**。  
 5.  输入项目名称（例如 `ip-tools-web`），点击 **Create project**。
 6.  将包含 `index.html` 的文件夹（或者直接拖拽文件）上传。
-7.  点击 **Deploy site**。
+7.  点击 **Deploy site**。  
 8.  访问 Pages 分配的域名即可使用。
 
-> **提示**：`index.html` 也可以直接双击在本地浏览器打开使用，或者部署到 GitHub Pages、Vercel、Netlify 等平台。
+> **提示**：`ip-replacement.html` 也可以直接双击在本地浏览器打开使用，或者部署到 GitHub Pages、Vercel、Netlify 等平台。
 
 ---
-
-## 📖 使用指南
-
-### 1. 输入格式
-
-在 "IP / 端口 / 列表" 输入框中，支持以下几种格式（每行一条，或用逗号分隔）：
-
-- **仅 IP**：

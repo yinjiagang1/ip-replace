@@ -35,11 +35,9 @@
 
 这种方式不需要 GitHub 仓库，直接在 Cloudflare 后台粘贴代码即可，自带免费域名。
 
-1.  登录 [Cloudflare Dashboard](https://dash.cloudflare.com/)。
-2.  进入 **
-
-计算和 AI** -> **Workers & Pages** -> **创建应用程序**。  
-3.  点击 **Create Application** -> **Create Worker**。  
+1.  登录 [Cloudflare Dashboard](https://dash.cloudflare.com/)。  
+2.  进入 **计算和 AI** -> **Workers & Pages** -> **创建应用程序**，或者**账户主页** -> **开发人员平台** -> **创建应用程序**。  
+3.  点击 **Create Application** -> **Create Worker**。    
 4.  命名你的 Worker（例如 `ip-tools`），点击 **Deploy**。
 5.  点击 **Edit code**。  
 6.  清空编辑器中的现有代码。

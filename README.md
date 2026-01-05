@@ -5,7 +5,7 @@
 
 它完全运行在浏览器端（纯前端逻辑），安全快速，支持 CIDR IP 段生成。
 > **提示**：`ip-replacement.html` 也可以直接双击在本地浏览器打开使用 **（推荐）**，
-> 或者部署到 GitHub Pages、Vercel、Netlify 等平台。
+          - 或者部署到 GitHub Pages、Vercel、Netlify 等平台。
 
 ![License](https://img.shields.io/badge/license-MIT-blue)
 

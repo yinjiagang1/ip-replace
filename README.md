@@ -6,11 +6,9 @@
 它完全运行在浏览器端（纯前端逻辑），安全快速，支持 CIDR IP 段生成。
 >**提示**：`ip-replacement.html` 也可以直接双击在本地浏览器打开使用 **（推荐）**，或者部署到 GitHub Pages、Vercel、Netlify 等平台。
 
-![License](https://img.shields.io/badge/license-MIT-blue)    
-
 ## ✨ 主要功能
 
-- **多协议支持**：支持 Vmess (Base64)、Vless (URL Scheme)、Trojan (URL Scheme)。  
+- **多协议支持**：支持 Vmess (Base64)、Vless (URL Scheme)、Trojan (URL Scheme)。    
 - **批量处理**：支持一次性输入多个 IP / 域名 或 IP 段。
 - **CIDR 解析**：支持输入 CIDR 格式（如 `192.168.1.0/24`），自动生成该网段下的所有 IP。
 - **自定义端口与备注**：

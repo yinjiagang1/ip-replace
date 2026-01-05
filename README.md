@@ -3,6 +3,7 @@
 这是一个基于 Web 的轻量级工具，用于批量修改 **Vmess**、**Vless** 和 **Trojan** 节点的 IP 地址、端口、备注名以及 ProxyIP 参数。
 
 它完全运行在浏览器端（纯前端逻辑），安全快速，支持 CIDR IP 段生成。
+> **提示**：`ip-replacement.html` 也可以直接双击在本地浏览器打开使用，或者部署到 GitHub Pages、Vercel、Netlify 等平台。
 
 ![License](https://img.shields.io/badge/license-MIT-blue)
 
@@ -56,7 +57,4 @@
 6.  将包含 `index.html` 的文件夹（或者直接拖拽文件）上传。
 7.  点击 **Deploy site**。  
 8.  访问 Pages 分配的域名即可使用。
-
-> **提示**：`ip-replacement.html` 也可以直接双击在本地浏览器打开使用，或者部署到 GitHub Pages、Vercel、Netlify 等平台。
-
 ---

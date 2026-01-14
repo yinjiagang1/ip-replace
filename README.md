@@ -4,11 +4,11 @@
 这是一个基于 Web 的轻量级工具，用于批量修改 **Vmess**、**Vless** 和 **Trojan** 节点的 IP 地址、端口、备注名以及 ProxyIP 参数。
 
 它完全运行在浏览器端（纯前端逻辑），安全快速，支持 CIDR IP 段生成。
->**提示**：`ip-replacement.html` 也可以直接双击在本地浏览器打开使用 **（推荐）**，或者部署到 GitHub Pages、Vercel、Netlify 等平台。
+>**提示**：`ip-replace.html` 也可以直接双击在本地浏览器打开使用 **（推荐）**，或者部署到 GitHub Pages、Vercel、Netlify 等平台。
 
 ## ✨ 主要功能
 
-- **多协议支持**：支持 Vmess (Base64)、Vless (URL Scheme)、Trojan (URL Scheme)。    
+- **多协议支持**：支持 Vmess (Base64)、Vless (URL Scheme)、Trojan (URL Scheme)。      
 - **批量处理**：支持一次性输入多个 IP / 域名 或 IP 段。
 - **CIDR 解析**：支持输入 CIDR 格式（如 `192.168.1.0/24`），自动生成该网段下的所有 IP。
 - **自定义端口与备注**：
@@ -22,7 +22,7 @@
 本项目包含两种部署方式的源代码：
 
 1.  **`_worker.js`**：用于部署在 **Cloudflare Workers**（包含服务端逻辑和内嵌 HTML）。
-2.  **`ip-replacement.html`**：本地双击运行 或 部署在 **Cloudflare Pages**、GitHub Pages 等任何静态服务器。
+2.  **`ip-replace.html`**：本地双击运行 或 部署在 **Cloudflare Pages**、GitHub Pages 等任何静态服务器。
 
 ---
 
@@ -46,7 +46,7 @@
 
 如果你有自己的域名或者喜欢静态托管方式。
 
-1.  将本项目中的 `ip-replacement.html` 文件下载到本地电脑。
+1.  将本项目中的 `ip-replace.html` 文件下载到本地电脑。
 2.  登录 [Cloudflare](https://dash.cloudflare.com/)。  
 3.  进入 **计算和 AI** -> **Workers & Pages** -> **创建应用程序**，或者 **账户主页** -> **开发人员平台** -> **创建应用程序**。    
 4.  点击Looking to deploy Pages?后面的 **Get started** -> 拖放文件**开始使用**。    
